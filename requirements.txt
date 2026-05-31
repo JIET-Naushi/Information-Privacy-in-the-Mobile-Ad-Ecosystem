@@ -1,0 +1,38 @@
+# Python dependencies for the replication repository
+# Install with: pip install -r requirements.txt
+
+# Data handling
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.12.0
+
+# HTTP and API access
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Android instrumentation
+frida>=16.0.0
+frida-tools>=12.0.0
+
+# Network traffic analysis
+mitmproxy>=11.0.0
+
+# Differential privacy
+diffprivlib>=0.6.4
+
+# Homomorphic encryption
+tenseal>=0.3.14
+
+# Machine learning / federated learning
+torch>=2.2.0
+
+# Privacy / federated learning frameworks
+# syft>=0.8.0   # optional — PySyft for advanced FL
+
+# Statistical analysis
+statsmodels>=0.14.0
+pingouin>=0.5.4
+
+# Utilities
+pathlib2>=2.3.7
+python-dotenv>=1.0.0
